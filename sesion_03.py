@@ -17,3 +17,19 @@ mi_lista_2 = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"]
 for i in mi_lista_2:
     if i != "Lunes":
         print(f"Feliz {i}!")
+
+
+
+#While loop
+i = 0
+
+while i < 5:
+      i += 1
+      if i==3:
+            continue
+      print(i)
+      if i == 4:
+            break
+else:
+      print("i es ahora mayor que 5")
+      
