@@ -8,7 +8,7 @@ class Ogro(Enemigo):
     def habla(self):
         print("Ogro aplasta todo!!!")
 
-    def ataque_epecial(self):
+    def ataque_especial(self):
         print("Ogro ataque especial")
         funciona_ataque_especial = random.random() < 0.20
         if funciona_ataque_especial:
